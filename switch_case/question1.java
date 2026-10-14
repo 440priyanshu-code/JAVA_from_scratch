@@ -7,24 +7,18 @@ class question1
     public static void main ( String args[])
     {
         Scanner sc = new Scanner(System.in);
-        System.out.print( "print 1 ,2 or 3 for different greetings :_");
-        int greet = sc.nextInt() ;
-        if ( greet == 1)
+        System.out.println("enter 1 ,2 or 3 :- ");
+        int button = sc.nextInt();
+        switch(button)
         {
-             System.out.println("NAMASTE!");
-        }
-        else if ( greet == 2)
-        {
-            System.out.println("HELLO !");
-        }
-        else if ( greet ==3 )
-        {
-            System.out.println("BONJOUR!");
-        }
-        else 
-        {
-            System.out.println("invalid input!");
-        }
-   }
-}
+            case 1 : System.out.println("hello ");
+            break;
+            case 2 : System.out.println("namaste ");
+            break;
+            case 3 : System.out.println("bonjour ");
+            break;
+            default :  System.out.println("invalid button!" );
 
+        }
+    }
+}
