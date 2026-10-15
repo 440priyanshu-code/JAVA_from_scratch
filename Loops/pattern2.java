@@ -7,7 +7,7 @@ public static void main(String[] args)
         {
             if ( i==1 || i==4 || j==5 || j==1)
                 {
-                System.out.print("*");
+                System.out.print("*"    );
                 }
                 else    
                 {
@@ -21,3 +21,8 @@ public static void main(String[] args)
 }    
 
 
+//OUTPUT:-
+// *****
+// *   *
+// *   *
+// *****
