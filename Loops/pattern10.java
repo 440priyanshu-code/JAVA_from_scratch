@@ -25,3 +25,10 @@ public static void main(String[] args) {
         } 
     }    
 }
+
+//ouput:-
+// 1 
+// 0 1 
+// 1 0 1 
+// 0 1 0 1 
+// 1 0 1 0 1 
