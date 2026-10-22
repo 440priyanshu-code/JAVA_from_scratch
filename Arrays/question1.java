@@ -152,3 +152,21 @@ for( int i =1 ; i < number.length ; i++)
 }
 
 }
+
+// OUTPUT :-
+// enter size of the array  =5
+// enter the elements if the array :
+// 00
+// 99
+// 88
+// 11
+// 22
+// the elements of the array are:
+// 0 
+// 99 
+// 88 
+// 11 
+// 22 
+// enter the number you want to find its index : 
+// 22
+//  the index of the number is : 4
